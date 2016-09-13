@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{5B11DC12-0BEB-F401-6517-C3CCBF94C62D}") = "Lyngby", "Assembly-CSharp.csproj", "{EC40FCA3-C875-41C2-18CC-2411051497AB}"
+EndProject
+Project("{5B11DC12-0BEB-F401-6517-C3CCBF94C62D}") = "Lyngby", "Assembly-CSharp-Editor.csproj", "{2E9D5534-E00A-B80B-2768-ABB314993A85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC40FCA3-C875-41C2-18CC-2411051497AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC40FCA3-C875-41C2-18CC-2411051497AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC40FCA3-C875-41C2-18CC-2411051497AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC40FCA3-C875-41C2-18CC-2411051497AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E9D5534-E00A-B80B-2768-ABB314993A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9D5534-E00A-B80B-2768-ABB314993A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9D5534-E00A-B80B-2768-ABB314993A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9D5534-E00A-B80B-2768-ABB314993A85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
