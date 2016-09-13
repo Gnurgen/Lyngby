@@ -20,7 +20,7 @@ public class ByggemandBob{
 
 			BuildPipeline.BuildPlayer (scenes, basePath + "/" + buildFolder + "/" + "buildfile.apk" , BuildTarget.Android, BuildOptions.None);
 
-			FileUtil.CopyFileOrDirectory ("C:/Users/Kenned/AppData/LocalUnity/Editor/Editor.log", basePath + "/" + buildFolder + "/log.txt");
+			FileUtil.CopyFileOrDirectory ("C:/Users/Kenned/AppData/Local/Unity/Editor/Editor.log", basePath + "/" + buildFolder + "/log.txt");
 		} catch(UnityException e){
 			StreamWriter fil = new StreamWriter(basePath + "/" + buildFolder + "/unity_errors.txt",true);
 			fil.Write (e.Message);
